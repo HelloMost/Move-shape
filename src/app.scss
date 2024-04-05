@@ -1,0 +1,224 @@
+$background: linear-gradient(to right, #6eda78, #ffa200);
+$color: #ffa200;
+$color2: #6eda78;
+$color3: #808080;
+
+body {
+    background: $background;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.centered {
+    width: 50%;
+}
+
+  
+.language-switcher-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.box2 {
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  position: relative;
+  cursor: pointer;
+
+  
+  .triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid $color3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-170%, -50%);
+  }
+  .triangle3 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid $color3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(80%, -50%)  rotate(180deg);
+  }
+  .oval-box {
+    width: 120px;
+    height: 40px;
+    background-color: $color2;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.box2:hover {
+  background-color: $color;
+}
+
+
+
+
+.box {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    position: relative;
+    
+    
+    .triangle1 {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid $color3;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(270deg);
+      cursor: pointer;
+    }
+    .triangle2 {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+      }
+      .triangle3 {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(180deg);
+      }
+      .triangle4 {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(90deg);
+      }
+      .oval-box {
+        width: 100px;
+        height: 40px;
+        background-color: $color2;
+        border-radius: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    }
+
+.box:hover {
+  background-color: $color
+}
+
+    
+    .rectangle {
+        width: 100px;
+        height: 100px;
+        background-color: $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .rectangle2 {
+        width: 350px;
+        height: 150px;
+        background-color: $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .circle {
+        width: 100px;
+        height: 100px;
+        background-color: $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+      }
+      .oval {
+        width: 350px;
+        height: 150px;
+        background-color: $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50% / 50%;
+      }
+      .trapezoid {
+        width: 100px;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .parallelogram {
+        width: 200px;
+        height: 150px;
+        background-color: $color3;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(180deg) skew(20deg);
+      }
+      
+      
+      
+      
+      
+      
+  
+  
+  
+  
+  
